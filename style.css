@@ -1,0 +1,82 @@
+body {
+    background-color: rgb(22, 22, 22);
+}
+
+input {
+    border-radius: 5px;
+    color: white;
+    border: 2px solid white;
+    background-color: rgb(22, 22, 22);
+    padding: 5px 10px;
+    transition: all .15s;
+}
+input:hover {
+    scale: 1.02;
+}
+input:active {
+    scale: 1.02;
+}
+
+#user-input {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    translate: -50% -50%;
+    font-size: 3em;
+    outline: none;
+    text-align: center;
+}
+
+#manual-grade {
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    translate: -50% -50%;
+    font-size: 3em;
+    outline: none;
+    text-align: center;
+    display: none;
+}
+
+#submit-button {
+    position: absolute;
+    left: 50%;
+    bottom: 25%;
+    translate: -50%;
+    font-size: 2em;
+    border-radius: 5px;
+    background-color: rgb(22, 22, 22);
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+    transition: all .15s;
+}
+#submit-button:hover {
+    color: rgb(22, 22, 22);
+    background-color: white;
+    scale: 1.05;
+}
+#submit-button:active {
+    scale: 0.95;
+}
+
+#reset-data {
+    position: absolute; 
+    left: 20px;
+    top: 20px;
+    font-size: 2em;
+    cursor: pointer;
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: rgb(22, 22, 22);
+    color: white;
+    transition: all 0.15s;
+}
+#reset-data:hover {
+    color: rgb(22, 22, 22);
+    background-color: white;
+    scale: 1.04;
+}
+#reset-data:active {
+    scale: 0.96;
+}
